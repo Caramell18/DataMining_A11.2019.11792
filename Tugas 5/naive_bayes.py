@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.multioutput import ClassifierChain
 
-dataset = pd.read_csv("Social Network Ads.csv")
+dataset = pd.read_csv("Tugas 5/Social Network Ads.csv")
 x = dataset.iloc [:, [2,3]].values
 y = dataset.iloc [:, -1 ].values
 # print ("========= x =======")
